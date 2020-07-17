@@ -17,17 +17,6 @@ const CurrentUserChecker = ({ children }: {children: any}) => {
   
   useEffect(() => {
 
-    if (!localStorage.getItem('auth_token')) {
-      
-      setCurrentUserState((state: any) => ({
-        ...state,
-        isLoggedIn: false,
-        currentUser: null
-      }))
-      
-      return
-    }
-
     getAuthor();
     
     if (data) {

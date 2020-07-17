@@ -4,8 +4,10 @@ Component `CurrentUserChecker` is rendered `6 times`
 
 in the [compared project](https://github.com/sketchnotes/-issue-react-multi-rendering-2) the same Component `CurrentUserChecker` is rendered `4 times`.
 
-Currect project: react(tsx, no StrictMode) + Apollo Client + GraphQL
+Current project: react(tsx, no StrictMode) + Apollo Client + GraphQL
+
                 vs
+
 Compared project: react(js, no StrictMode) + axios + rest
 
 ## Available Scripts
